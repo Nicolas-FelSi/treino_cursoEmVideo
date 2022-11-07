@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E81CD;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+label, p, button{
+    font-size: 1rem;
+}
+
+.text-footer {
+    padding: 10px;
+}
+
+.end, .start, .step-by-step {
+    margin-bottom: 10px;
+}
+
+input, .btn {
+    padding: 8px;
+    background-color: #cbe3ff;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #3E81CD;
+    color: white;
+}
+
+#result {
+    text-align: center;
+}
